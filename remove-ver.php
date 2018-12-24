@@ -1,3 +1,4 @@
+<?php
 add_filter( 'script_loader_src', '_remove_script_version', 999, 1 );
 	add_filter( 'style_loader_src', '_remove_script_version', 999, 1 );
 
